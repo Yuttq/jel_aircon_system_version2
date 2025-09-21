@@ -113,7 +113,7 @@ require_once 'includes/config.php';
                         <a class="nav-link" href="customer_portal/login.php">Customer Portal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-primary ms-2" href="book_service.php">Book Service</a>
+                        <a class="btn btn-primary ms-2 shadow-sm" href="book_service.php" style="border-radius: 8px; padding: 8px 20px; font-weight: 500;">Book Service</a>
                     </li>
                 </ul>
             </div>

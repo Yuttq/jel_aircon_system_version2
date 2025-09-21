@@ -126,96 +126,96 @@ checkAuth();
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-2 mb-3">
-                            <a href="modules/bookings/add.php" class="btn btn-primary btn-block w-100">
+                            <a href="modules/bookings/add.php" class="btn btn-primary btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-plus me-2"></i>New Booking
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="modules/customers/add.php" class="btn btn-success btn-block w-100">
+                            <a href="modules/customers/add.php" class="btn btn-success btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-user-plus me-2"></i>Add Customer
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="modules/technicians/add.php" class="btn btn-info btn-block w-100">
+                            <a href="modules/technicians/add.php" class="btn btn-info btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-tools me-2"></i>Add Technician
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="modules/services/add.php" class="btn btn-warning btn-block w-100">
+                            <a href="modules/services/add.php" class="btn btn-warning btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-cog me-2"></i>Add Service
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="modules/payments/add.php" class="btn btn-secondary btn-block w-100">
+                            <a href="modules/payments/add.php" class="btn btn-secondary btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-credit-card me-2"></i>Record Payment
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="modules/reports/" class="btn btn-dark btn-block w-100">
+                            <a href="modules/reports/" class="btn btn-dark btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 12px 16px; font-weight: 500;">
                                 <i class="fas fa-chart-bar me-2"></i>View Reports
                             </a>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-2 mb-3">
-                            <a href="admin_panel.php" class="btn btn-outline-primary btn-block w-100">
+                            <a href="admin_panel.php" class="btn btn-outline-primary btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-cogs me-2"></i>Admin Panel
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="settings.php" class="btn btn-outline-secondary btn-block w-100">
+                            <a href="settings.php" class="btn btn-outline-secondary btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-cog me-2"></i>Settings
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="system_test.php" class="btn btn-outline-info btn-block w-100">
+                            <a href="system_test.php" class="btn btn-outline-info btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-check-circle me-2"></i>System Test
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="admin/email_config.php" class="btn btn-outline-warning btn-block w-100">
+                            <a href="admin/email_config.php" class="btn btn-outline-warning btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-envelope me-2"></i>Email Config
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="admin/data_migration.php" class="btn btn-outline-success btn-block w-100">
+                            <a href="admin/data_migration.php" class="btn btn-outline-success btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-database me-2"></i>Data Migration
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="admin/view_database.php" class="btn btn-outline-danger btn-block w-100">
+                            <a href="admin/view_database.php" class="btn btn-outline-danger btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-eye me-2"></i>Database Viewer
                             </a>
                         </div>
                     </div>
                     <div class="row mt-3">
                         <div class="col-md-2 mb-3">
-                            <a href="development_links.php" class="btn btn-outline-dark btn-block w-100">
+                            <a href="development_links.php" class="btn btn-outline-dark btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-link me-2"></i>Dev Links
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="test_email_simple.php" class="btn btn-outline-info btn-block w-100">
+                            <a href="test_email_simple.php" class="btn btn-outline-info btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-paper-plane me-2"></i>Email Test
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="test_notifications.php" class="btn btn-outline-warning btn-block w-100">
+                            <a href="test_notifications.php" class="btn btn-outline-warning btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-bell me-2"></i>Test Notifications
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="scheduled_tasks.php" class="btn btn-outline-secondary btn-block w-100">
+                            <a href="scheduled_tasks.php" class="btn btn-outline-secondary btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-clock me-2"></i>Scheduled Tasks
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="fix_database.php" class="btn btn-outline-danger btn-block w-100">
+                            <a href="fix_database.php" class="btn btn-outline-danger btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-database me-2"></i>Fix Database
                             </a>
                         </div>
                         <div class="col-md-2 mb-3">
-                            <a href="book_service.php" class="btn btn-outline-success btn-block w-100">
+                            <a href="book_service.php" class="btn btn-outline-success btn-block w-100 shadow-sm" style="border-radius: 8px; padding: 10px 16px; font-weight: 500; border-width: 2px;">
                                 <i class="fas fa-calendar-plus me-2"></i>Book Service
                             </a>
                         </div>

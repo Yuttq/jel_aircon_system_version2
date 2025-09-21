@@ -129,15 +129,15 @@ $customers = $stmt->fetchAll();
                                             <td><?php echo htmlspecialchars(substr($customer['address'], 0, 50) . (strlen($customer['address']) > 50 ? '...' : '')); ?></td>
                                             <td><?php echo date('M j, Y', strtotime($customer['created_at'])); ?></td>
                                             <td>
-                                                <div class="btn-group">
-                                                    <a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-info" title="View">
-                                                        <i class="fas fa-eye"></i>
+                                                <div class="btn-group" role="group">
+                                                    <a href="view.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-outline-info" title="View Details" style="border-radius: 6px 0 0 6px;">
+                                                        <i class="fas fa-eye me-1"></i>View
                                                     </a>
-                                                    <a href="edit.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-primary" title="Edit">
-                                                        <i class="fas fa-edit"></i>
+                                                    <a href="edit.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-outline-primary" title="Edit Customer" style="border-radius: 0;">
+                                                        <i class="fas fa-edit me-1"></i>Edit
                                                     </a>
-                                                    <a href="delete.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-danger" title="Delete" onclick="return confirm('Are you sure you want to delete this customer?')">
-                                                        <i class="fas fa-trash"></i>
+                                                    <a href="delete.php?id=<?php echo $customer['id']; ?>" class="btn btn-sm btn-outline-danger" title="Delete Customer" onclick="return confirm('Are you sure you want to delete this customer?')" style="border-radius: 0 6px 6px 0;">
+                                                        <i class="fas fa-trash me-1"></i>Delete
                                                     </a>
                                                 </div>
                                             </td>

@@ -112,8 +112,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
 
                         <div class="d-flex justify-content-between">
-                            <a href="index.php" class="btn btn-secondary">Cancel</a>
-                            <button type="submit" class="btn btn-primary">Add Customer</button>
+                            <a href="index.php" class="btn btn-secondary shadow-sm" style="border-radius: 8px; padding: 10px 20px; font-weight: 500;">
+                                <i class="fas fa-times me-2"></i>Cancel
+                            </a>
+                            <button type="submit" class="btn btn-primary shadow-sm" style="border-radius: 8px; padding: 10px 20px; font-weight: 500;">
+                                <i class="fas fa-user-plus me-2"></i>Add Customer
+                            </button>
                         </div>
                     </form>
                 </div>

@@ -258,12 +258,12 @@ $summary = $summaryStmt->fetch();
                                                 </span>
                                             </td>
                                             <td>
-                                                <div class="btn-group">
-                                                    <a href="edit.php?id=<?php echo $payment['id']; ?>" class="btn btn-sm btn-primary" title="Edit">
-                                                        <i class="fas fa-edit"></i>
+                                                <div class="btn-group" role="group">
+                                                    <a href="edit.php?id=<?php echo $payment['id']; ?>" class="btn btn-sm btn-outline-primary" title="Edit Payment" style="border-radius: 6px 0 0 6px;">
+                                                        <i class="fas fa-edit me-1"></i>Edit
                                                     </a>
-                                                    <a href="delete.php?id=<?php echo $payment['id']; ?>" class="btn btn-sm btn-danger" title="Delete" onclick="return confirm('Are you sure you want to delete this payment?')">
-                                                        <i class="fas fa-trash"></i>
+                                                    <a href="delete.php?id=<?php echo $payment['id']; ?>" class="btn btn-sm btn-outline-danger" title="Delete Payment" onclick="return confirm('Are you sure you want to delete this payment?')" style="border-radius: 0 6px 6px 0;">
+                                                        <i class="fas fa-trash me-1"></i>Delete
                                                     </a>
                                                 </div>
                                             </td>

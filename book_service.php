@@ -134,8 +134,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <i class="fas fa-check-circle me-2"></i><?php echo $success; ?>
                                 </div>
                                 <div class="text-center">
-                                    <a href="index_public.php" class="btn btn-primary">Back to Home</a>
-                                    <a href="customer_portal/login.php" class="btn btn-outline-primary">Customer Portal</a>
+                                    <a href="index_public.php" class="btn btn-primary shadow-sm me-3" style="border-radius: 8px; padding: 10px 20px; font-weight: 500;">
+                                        <i class="fas fa-home me-2"></i>Back to Home
+                                    </a>
+                                    <a href="customer_portal/login.php" class="btn btn-outline-primary shadow-sm" style="border-radius: 8px; padding: 10px 20px; font-weight: 500; border-width: 2px;">
+                                        <i class="fas fa-user me-2"></i>Customer Portal
+                                    </a>
                                 </div>
                             <?php else: ?>
                                 
@@ -244,7 +248,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     </div>
                                     
                                     <div class="text-center">
-                                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5 shadow-sm" style="border-radius: 10px; font-weight: 500;">
                                             <i class="fas fa-calendar-check me-2"></i>Book Service
                                         </button>
                                     </div>

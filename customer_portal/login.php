@@ -84,7 +84,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                            value="<?php echo htmlspecialchars($_POST['phone'] ?? ''); ?>" required>
                                 </div>
                                 
-                                <button type="submit" class="btn btn-primary w-100 py-2">Login to Portal</button>
+                                <button type="submit" class="btn btn-primary w-100 py-2 shadow-sm" style="border-radius: 8px; font-weight: 500;">
+                                    <i class="fas fa-sign-in-alt me-2"></i>Login to Portal
+                                </button>
                             </form>
                             
                             <div class="text-center mt-4">

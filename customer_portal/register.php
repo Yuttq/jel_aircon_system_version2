@@ -121,7 +121,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <textarea class="form-control" id="address" name="address" rows="3"><?php echo htmlspecialchars($_POST['address'] ?? ''); ?></textarea>
                                 </div>
                                 
-                                <button type="submit" class="btn btn-primary w-100 py-2">Register Account</button>
+                                <button type="submit" class="btn btn-primary w-100 py-2 shadow-sm" style="border-radius: 8px; font-weight: 500;">
+                                    <i class="fas fa-user-plus me-2"></i>Register Account
+                                </button>
                             </form>
                             
                             <div class="text-center mt-4">

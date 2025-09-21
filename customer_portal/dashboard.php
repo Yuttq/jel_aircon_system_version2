@@ -249,17 +249,17 @@ $stats = $statsStmt->fetch();
                         <h5 class="mb-0">Quick Actions</h5>
                     </div>
                     <div class="card-body">
-                        <div class="d-grid gap-2">
-                            <a href="../modules/bookings/add.php" class="btn btn-primary d-flex align-items-center justify-content-center">
-                                <img src="../assets/images/customer-portal/new-booking.svg" alt="New Booking" style="width: 20px; height: 20px;" class="me-2">
+                        <div class="d-grid gap-3">
+                            <a href="../modules/bookings/add.php" class="btn btn-primary d-flex align-items-center justify-content-center shadow-sm" style="border-radius: 10px; padding: 14px 20px; font-weight: 500;">
+                                <img src="../assets/images/customer-portal/new-booking.svg" alt="New Booking" style="width: 22px; height: 22px;" class="me-3">
                                 New Booking Request
                             </a>
-                            <a href="history.php" class="btn btn-outline-primary d-flex align-items-center justify-content-center">
-                                <img src="../assets/images/customer-portal/service-history.svg" alt="Service History" style="width: 20px; height: 20px;" class="me-2">
+                            <a href="history.php" class="btn btn-outline-primary d-flex align-items-center justify-content-center shadow-sm" style="border-radius: 10px; padding: 14px 20px; font-weight: 500; border-width: 2px;">
+                                <img src="../assets/images/customer-portal/service-history.svg" alt="Service History" style="width: 22px; height: 22px;" class="me-3">
                                 Service History
                             </a>
-                            <a href="profile.php" class="btn btn-outline-secondary d-flex align-items-center justify-content-center">
-                                <img src="../assets/images/customer-portal/profile.svg" alt="Profile" style="width: 20px; height: 20px;" class="me-2">
+                            <a href="profile.php" class="btn btn-outline-secondary d-flex align-items-center justify-content-center shadow-sm" style="border-radius: 10px; padding: 14px 20px; font-weight: 500; border-width: 2px;">
+                                <img src="../assets/images/customer-portal/profile.svg" alt="Profile" style="width: 22px; height: 22px;" class="me-3">
                                 Update Profile
                             </a>
                         </div>
